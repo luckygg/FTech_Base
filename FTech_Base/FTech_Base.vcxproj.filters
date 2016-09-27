@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pane Class">
+      <UniqueIdentifier>{7bfb6263-3051-4c47-af7b-75648f6acd23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{1f8d7b79-f74b-4c15-96f1-46276a7300a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{f0ed849f-1088-48f5-8d3b-834b6beabfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pane Class\Form Class">
+      <UniqueIdentifier>{8ca1176c-2b1b-439c-bcef-0368cbc0f06f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\FTech_Base.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FTech_Base.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_mini.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\btn_exit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\table_time.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\table_time.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_chk_autofocus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_nom_autofocus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_chk_camera.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_nom_camera.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_chk_optotune.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_nom_optotune.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_chk_settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rbtn_nom_settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FTech_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FTech_BaseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneMenu.h">
+      <Filter>Pane Class</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneStatus.h">
+      <Filter>Pane Class</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneTitle.h">
+      <Filter>Pane Class</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneView.h">
+      <Filter>Pane Class</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LabelEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ButtonEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CallbackThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RadioEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScrollBarEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ViewerEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FormCamera.h">
+      <Filter>Pane Class\Form Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FormAutoFocus.h">
+      <Filter>Pane Class\Form Class</Filter>
+    </ClInclude>
+    <ClInclude Include="FormOptotune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FTech_Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FTech_BaseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneMenu.cpp">
+      <Filter>Pane Class</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneStatus.cpp">
+      <Filter>Pane Class</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneTitle.cpp">
+      <Filter>Pane Class</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneView.cpp">
+      <Filter>Pane Class</Filter>
+    </ClCompile>
+    <ClCompile Include="include\LabelEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ButtonEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\CallbackThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="include\RadioEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ScrollBarEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ViewerEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FormCamera.cpp">
+      <Filter>Pane Class\Form Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FormAutoFocus.cpp">
+      <Filter>Pane Class\Form Class</Filter>
+    </ClCompile>
+    <ClCompile Include="FormOptotune.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FTech_Base.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
